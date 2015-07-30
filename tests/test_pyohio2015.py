@@ -10,16 +10,17 @@ Tests for `pyohio2015` module.
 
 import unittest
 
-from pyohio2015 import pyohio2015
+import pyohio2015
 
 
 class TestPyohio2015(unittest.TestCase):
 
     def setUp(self):
-        pass
+        self.hello_message = "Hello, PyOhio!"
 
-    def test_something(self):
-        pass
+    def test_prints_hello_pyohio(self):
+        output = pyohio2015.hello()
+        assert(output == self.hello_message)
 
     def tearDown(self):
         pass
