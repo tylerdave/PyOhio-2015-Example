@@ -11,7 +11,7 @@ PyOhio 2015 Example
 
 Example package for PyOhio talk
 
-* Free software: BSD license
+* Free software: MIT license
 * Documentation: https://pyohio2015.readthedocs.org.
 
 Features
