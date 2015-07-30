@@ -1,6 +1,9 @@
 from __future__ import print_function
 
 def hello():
-    """ Prints a Hello, World! """
+    """ Returns a Hello, World! """
+    return("Hello, PyOhio!")
 
-    print("Hello, PyOhio!")
+def say_hello():
+    """ Prints Hello, World message """
+    print(hello())
